@@ -1,7 +1,7 @@
 # Documentation des classes de l'application c# gsb3
 --
 ## Visiteur.cs 
---
+
 ### id
     nombre généré qui est unique et propre à un visiteur
 ### nom 
@@ -24,3 +24,32 @@
     liste des compétences propre à un visiteur qui définit les produits qu'il peut représenter
 ### inscription
     liste des séminaires pour lesquels le visiteur est inscrit
+--
+## Seminaire.cs
+
+### id
+    nombre généré qui est unique et propre à un séminaire
+### produit
+    produit présenté au séminaire
+### debut
+    date à laquelle se déroule le séminaire
+### departement
+    département dans lequel se déroule le séminaire
+### ville
+    ville dans laquelle se déroule le séminaire
+--
+## Produit.cs
+
+### id
+    nombre généré qui est unique et propre à un produit
+### nom
+    nom du produit présenté
+--
+## Database.cs
+
+### Visiteur
+    chemin vers le fichier json qui est la table visiteur
+### Produit
+    chemin vers le fichier json qui est la table produit
+### Seminaire
+    chemin vers le fichier json qui est la table séminaire
