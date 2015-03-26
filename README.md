@@ -16,7 +16,7 @@
     code postal du visiteur
 ### ville
     ville où habite le visiteur
-### dateeEmbauche
+### dateEmbauche
     date où a été embauché le visiteur
 ### competences
     liste des compétences propre à un visiteur qui définit les produits qu'il peut représenter
