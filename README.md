@@ -1,7 +1,7 @@
 # Documentation des classes de l'application c# gsb3
-====
+--
 ## Visiteur.cs 
----
+--
 ### id
     nombre généré qui est unique et propre à un visiteur
 ### nom 
