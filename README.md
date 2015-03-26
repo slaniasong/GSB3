@@ -1,5 +1,7 @@
 # Documentation des classes de l'application c# gsb3
+====
 ## Visiteur.cs 
+---
 ### id
     nombre généré qui est unique et propre à un visiteur
 ### nom 
@@ -16,7 +18,7 @@
     code postal du visiteur
 ### ville
     ville où habite le visiteur
-### dateEmbauche
+### dateeEmbauche
     date où a été embauché le visiteur
 ### competences
     liste des compétences propre à un visiteur qui définit les produits qu'il peut représenter
