@@ -57,7 +57,8 @@
 ## MainWindow.xalm.cs
     programme correspondant à la l'application lancée où la principale partie du code est écrite.
 ### v_serial, v_deserial, p_serial, p_deserial, s_serial, s_deserial
-    variables de type string qui permettent de récupérer des données (serial) ou d'en enregistrer (deserial) avec v pour visiteur, p pour produit et s_ pour séminaire.
+    variables de type string qui permettent de récupérer des données (serial) 
+    ou d'en enregistrer (deserial) avec v pour visiteur, p pour produit et s_ pour séminaire.
 ### ObservableCollection <Visiteur> visiteur
     collection de visiteur pour créer une liste de login non visible dans l'application
 ### ObservableCollection <Produit> produit
@@ -65,7 +66,8 @@
 ### ObservableCollection <Seminaire> séminaire
     collection de séminaire pour généré une liste de séminaire disponible suivant le produit
 ### ObservableCollection <Seminaire> inscription
-    collection de séminaire pour généré une liste de séminaire où l'utilisateur est inscrit et qui est consultable suivant la personne
+    collection de séminaire pour généré une liste de séminaire où l'utilisateur est inscrit 
+    et qui est consultable suivant la personne
 ### loginCmd_Click
     procédure qui permet de se vérifier si la connexion est bien faite
 ### login()
@@ -85,8 +87,17 @@
 # Doc utilisateur
 #Utilisation de l’application GSB3 :
 --
-    Tout d’abord, GSB3 est une application permettant à un utilisateur connecté de s’inscrire à des séminaires en rapport avec des produits en liens avec ses compétences.
+    Tout d’abord, GSB3 est une application permettant à un utilisateur connecté de 
+    s’inscrire à des séminaires en rapport avec des produits en liens avec ses compétences.
 ##CONNECTION/DECONNECTION
-    Pour ce faire l’utilisateur devra se connecter avec son login et mot de passe (au démarrage de l’application une demande de connexion apparait). Si il s’est déconnecté, l’utilisateur pourra se reconnecté ou une autre personne pourra se connecté en appuyant sur le bouton avec un visage en icone se situant en haut à droite de l’application. En étant connecté, le bouton servira à la déconnection. 
+    Pour ce faire l’utilisateur devra se connecter avec son login et mot de passe 
+    (au démarrage de l’application une demande de connexion apparait). Si il s’est 
+    déconnecté, l’utilisateur pourra se reconnecté ou une autre personne pourra se 
+    connecté en appuyant sur le bouton avec un visage en icone se situant en haut à 
+    droite de l’application. En étant connecté, le bouton servira à la déconnection. 
 ##INSCRIPTION/ANNULATION SEMINAIRE
-    L’inscription à un séminaire se fera en choisissant un produit contenu dans la liste de gauche et en le sélectionnant puis en cliquant sur le bouton « s’inscrire » en bas à droite. En sélectionnant un séminaire dans la liste de gauche et en cliquant sur le bouton « annuler inscription » l’utilisateur se désinscrit du séminaire sélectionné.
+    L’inscription à un séminaire se fera en choisissant un produit contenu dans 
+    la liste de gauche et en le sélectionnant puis en cliquant sur le bouton 
+    « s’inscrire » en bas à droite. En sélectionnant un séminaire dans la liste 
+    de gauche et en cliquant sur le bouton « annuler inscription » l’utilisateur 
+    se désinscrit du séminaire sélectionné.
