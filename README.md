@@ -81,3 +81,12 @@
 --
 ## UniqId
     sert à générer un Id unique lors de l'enregistrement de données.
+    
+# Doc utilisateur
+#Utilisation de l’application GSB3 :
+--
+    Tout d’abord, GSB3 est une application permettant à un utilisateur connecté de s’inscrire à des séminaires en rapport avec des produits en liens avec ses compétences.
+##CONNECTION/DECONNECTION
+    Pour ce faire l’utilisateur devra se connecter avec son login et mot de passe (au démarrage de l’application une demande de connexion apparait). Si il s’est déconnecté, l’utilisateur pourra se reconnecté ou une autre personne pourra se connecté en appuyant sur le bouton avec un visage en icone se situant en haut à droite de l’application. En étant connecté, le bouton servira à la déconnection. 
+##INSCRIPTION/ANNULATION SEMINAIRE
+    L’inscription à un séminaire se fera en choisissant un produit contenu dans la liste de gauche et en le sélectionnant puis en cliquant sur le bouton « s’inscrire » en bas à droite. En sélectionnant un séminaire dans la liste de gauche et en cliquant sur le bouton « annuler inscription » l’utilisateur se désinscrit du séminaire sélectionné.
