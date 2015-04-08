@@ -62,9 +62,9 @@
     collection de visiteur pour créer une liste de login non visible dans l'application
 ### ObservableCollection<Produit> produit
     collection de produit pour créer une liste de produit visible suivant la personne connectée dans l'application
-### ObservableCollection<Séminaire> séminaire
+### ObservableCollection<séminaire> séminaire
     collection de séminaire pour généré une liste de séminaire disponible suivant le produit
-### ObservableCollection<Séminaire> inscription
+### ObservableCollection<séminaire> inscription
     collection de séminaire pour généré une liste de séminaire où l'utilisateur est inscrit et qui est consultable suivant la personne
 ### loginCmd_Click
     procédure qui permet de se vérifier si la connexion est bien faite
