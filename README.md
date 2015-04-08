@@ -53,3 +53,31 @@
     chemin vers le fichier json qui est la table produit
 ### Seminaire
     chemin vers le fichier json qui est la table séminaire
+--
+## MainWindow.xalm.cs
+    programme correspondant à la l'application lancée où la principale partie du code est écrite.
+### v_serial, v_deserial, p_serial, p_deserial, s_serial, s_deserial
+    variables de type string qui permettent de récupérer des données (serial) ou d'en enregistrer (deserial) avec v pour visiteur, p pour produit et s_ pour séminaire.
+### ObservableCollection<Visiteur> visiteur
+    collection de visiteur pour créer une liste de login non visible dans l'application
+### ObservableCollection<Produit> produit
+    collection de produit pour créer une liste de produit visible suivant la personne connectée dans l'application
+### ObservableCollection<Séminaire> séminaire
+    collection de séminaire pour généré une liste de séminaire disponible suivant le produit
+### ObservableCollection<Séminaire> inscription
+    collection de séminaire pour généré une liste de séminaire où l'utilisateur est inscrit et qui est consultable suivant la personne
+### loginCmd_Click
+    procédure qui permet de se vérifier si la connexion est bien faite
+### login()
+    procédure qui permet de se connecter en cliquant sur le bouton correspondant
+### b_inscription_Click
+    procédure qui permet de s'inscrire au séminaire sélectionné
+### b_annulation_Click
+    procédure qui permet de se désinscrire d'un séminaire sélectionné
+### b_deco_Click
+    proccédure qui permet de se déconnecter de l'application
+### lv_seminaire_SelectionChanged
+    procédure qui aide à l'annulation d'un séminaire
+--
+## UniqId
+    sert à générer un Id unique lors de l'enregistrement de données.
