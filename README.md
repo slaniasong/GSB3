@@ -58,13 +58,13 @@
     programme correspondant à la l'application lancée où la principale partie du code est écrite.
 ### v_serial, v_deserial, p_serial, p_deserial, s_serial, s_deserial
     variables de type string qui permettent de récupérer des données (serial) ou d'en enregistrer (deserial) avec v pour visiteur, p pour produit et s_ pour séminaire.
-### ObservableCollection<Visiteur> visiteur
+### ObservableCollection <Visiteur> visiteur
     collection de visiteur pour créer une liste de login non visible dans l'application
-### ObservableCollection<Produit> produit
+### ObservableCollection <Produit> produit
     collection de produit pour créer une liste de produit visible suivant la personne connectée dans l'application
-### ObservableCollection<séminaire> séminaire
+### ObservableCollection <Seminaire> séminaire
     collection de séminaire pour généré une liste de séminaire disponible suivant le produit
-### ObservableCollection<séminaire> inscription
+### ObservableCollection <Seminaire> inscription
     collection de séminaire pour généré une liste de séminaire où l'utilisateur est inscrit et qui est consultable suivant la personne
 ### loginCmd_Click
     procédure qui permet de se vérifier si la connexion est bien faite
